@@ -1,0 +1,13 @@
+{
+  "name": "nodejs-test-kekumada",
+  "version": "0.0.12",
+  "description": "test nodejs tutorial",
+  "main": "index.js",
+  "scripts": {
+    "test": "jenkins-mocha test/ --recursive"
+  },
+  "author": "kekumada <kumada626@gmail.com>",
+  "devDependencies": {
+    "jenkins-mocha": "~1.0.9"
+  }
+}
